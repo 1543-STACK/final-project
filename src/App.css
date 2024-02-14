@@ -1,0 +1,19 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+  background: linear-gradient(
+    90deg,
+    rgb(147, 228, 241) 0%,
+    rgb(102, 202, 241) 100%
+  );
+}
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+@media (max-width: 900px) {
+  .App {
+    margin: 2rem 1.5rem;
+  }
+}
